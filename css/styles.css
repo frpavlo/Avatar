@@ -1,7 +1,8 @@
 :root {
     --main-color: #141414;
     --add-color: #FFF;
-    --accent-color: color: #94CFFF;
+    --accent-color: #94CFFF;
+    --bg-color: #0b0e66;
 }
 h1,
 h2,
