@@ -10,120 +10,176 @@
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="shortcut icon" href="./images/bird_icon.svg">
   </head>
   <body>
     <header class="header">
-      <a class="logo-link link" href="index.html"
-        ><img src="./images/avatar_logo.png" alt="logo"
-      /></a>
-      <nav class="nav">
-        <ul class="nav-list list">
-          <li class="nav-item"><a class="nav-link link" href="">Main</a></li>
-          <li class="nav-item">
-            <a class="nav-link link" href="">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <button class="login-btn" type="button">Log in</button>
-      <div class="header-language-wrapper">
-        <p class="eng-switch">eng</p>
-        <p class="ua-switch">ua</p>
+      <div class="container">
+        <a class="logo-link link" href="index.html"
+          ><img src="./images/avatar_logo.png" alt="logo"
+        /></a>
+        <nav class="nav">
+          <ul class="nav-list list">
+            <li class="nav-item"><a class="nav-link link" href="">Main</a></li>
+            <li class="nav-item">
+              <a class="nav-link link" href="">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="login-btn" type="button">Log in</button>
+        <div class="header-language-wrapper">
+          <button type="button" class="lang-switch">eng</button>
+          <img src="./images/switcher_icon.svg" alt="switcher" />
+          <button type="button" class="lang-switch">ua</button>
+        </div>
       </div>
     </header>
     <main>
       <section class="hero">
-        <h1 class="visually-hidden">Join the clan</h1>
-        <p class="hero-info">
-          Oe perlltxe hu tsamsiyu! <br />
-          Ngari hu Eywa salew tirea, <br />
-          tokx 'ì'awn slu Na'viyä hapxì. <br />
-          Säwem nìayoeng!
-        </p>
-        <p class="hero-info">
-          I'm speaking with the warrior! <br />
-          Your spirit goes with Eywa, <br />
-          your body stays behind to become part of the People. <br />
-          Fight with us!
-        </p>
-        <button class="join-btn" type="button">Join clan</button>
+        <div class="container">
+          <h1 class="visually-hidden">Join the clan</h1>
+          <div class="hero-left-side">
+            <p class="hero-info">
+              Oe perlltxe hu tsamsiyu! <br />
+              Ngari hu Eywa salew tirea, <br />
+              tokx 'ì'awn slu Na'viyä hapxì. <br />
+              Säwem nìayoeng!
+            </p>
+            <p class="hero-info">
+              I'm speaking with the warrior! <br />
+              Your spirit goes with Eywa, <br />
+              your body stays behind to <br />
+              become part of the People. <br />
+              Fight with us!
+            </p>
+            <button class="join-btn" type="button">Join clan</button>
+          </div>
+          <ul class="social-links-list list">
+            <li class="social-links-item">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer" class="social-link">
+                <img src="./images/inst_icon.svg" alt="instagram" />
+              </a>
+            </li>
+            <li class="social-links-item">
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer" class="social-link">
+                <img src="./images/twitter_icon.svg" alt="twitter" />
+              </a>
+            </li>
+            <li class="social-links-item">
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                rel="noopener noreferrer" class="social-link">
+                <img src="./images/youtube_icon.svg" alt="youtube" />
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
       <div class="phrase">
-        <p class="phrase-text">
-          “A LOT OF PEOPLE FROM THE SKY ARE GONNA COME. THEY’RE <br />
-          GONNA COME LIKE A RAIN THAT NEVER ENDS.”
-        </p>
-        <p class="phrase-author">JAKE SULLY</p>
+        <div class="container">
+          <p class="phrase-text">
+            “A LOT OF PEOPLE FROM THE SKY ARE GONNA COME. THEY’RE <br />
+            GONNA COME LIKE A RAIN THAT NEVER ENDS.”
+          </p>
+          <p class="phrase-author">JAKE SULLY</p>
+        </div>
       </div>
       <section class="trailer">
-        <h2 class="visually-hidden">Watch the trailer</h2>
-        <button class="watch-btn" type="button">WATCH TRAILER</button>
+        <div class="container">
+          <h2 class="visually-hidden">Watch the trailer</h2>
+          <button class="watch-btn" type="button">WATCH TRAILER</button>
+        </div>
       </section>
       <div class="phrase">
-        <p class="phrase-text">
-          “ALL ENERGY IS ONLY BORROWED, AND ONE DAY <br />
-          YOU HAVE TO GIVE IT BACK.”
-        </p>
-        <p class="phrase-author">JAKE SULLY</p>
+        <div class="container">
+          <p class="phrase-text">
+            “ALL ENERGY IS ONLY BORROWED, AND ONE DAY <br />
+            YOU HAVE TO GIVE IT BACK.”
+          </p>
+          <p class="phrase-author">JAKE SULLY</p>
+        </div>
       </div>
       <section class="language">
-        <h2 class="language-title">Let's learn the Na'vi language</h2>
-        <ul class="language-list">
-          <li class="language-item">
-            <p class="language-phrase">Hello</p>
-            <p class="language-phrase">Kaltxì</p>
-          </li>
-          <li class="language-item">
-            <p class="language-phrase">How Are You?</p>
-            <p class="language-phrase">Ngaru lu fpom srak?</p>
-          </li>
-          <li class="language-item">
-            <p class="language-phrase">I'm Well</p>
-            <p class="language-phrase">Lu fpom</p>
-          </li>
-          <li class="language-item">
-            <p class="language-phrase">Thank you</p>
-            <p class="language-phrase">Irayo si</p>
-          </li>
-          <li class="language-item">
-            <p class="language-phrase">I See You</p>
-            <p class="language-phrase">Oel ngati kameie</p>
-          </li>
-          <li class="language-item">
-            <p class="language-phrase">Follow me!</p>
-            <p class="language-phrase">Nong oet!</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="language-title">Let's learn the Na'vi language</h2>
+          <ul class="language-list list">
+            <li class="language-item">
+              <p class="language-phrase">Hello</p>
+              <p class="language-phrase">Kaltxì</p>
+            </li>
+            <li class="language-item">
+              <p class="language-phrase">How Are You?</p>
+              <p class="language-phrase">Ngaru lu fpom srak?</p>
+            </li>
+            <li class="language-item">
+              <p class="language-phrase">I'm Well</p>
+              <p class="language-phrase">Lu fpom</p>
+            </li>
+            <li class="language-item">
+              <p class="language-phrase">Thank you</p>
+              <p class="language-phrase">Irayo si</p>
+            </li>
+            <li class="language-item">
+              <p class="language-phrase">I See You</p>
+              <p class="language-phrase">Oel ngati kameie</p>
+            </li>
+            <li class="language-item">
+              <p class="language-phrase">Follow me!</p>
+              <p class="language-phrase">Nong oet!</p>
+            </li>
+          </ul>
+        </div>
       </section>
       <div class="phrase">
-        <p class="phrase-text">
-          “OUR GREAT MOTHER DOES NOT TAKE SIDES, <br />
-          SHE PROTECTS ONLY THE BALANCE OF LIFE.”
-        </p>
-        <p class="phrase-author">NEYTIRI</p>
+        <div class="container">
+          <p class="phrase-text">
+            “OUR GREAT MOTHER DOES NOT TAKE SIDES, <br />
+            SHE PROTECTS ONLY THE BALANCE OF LIFE.”
+          </p>
+          <p class="phrase-author">NEYTIRI</p>
+        </div>
       </div>
     </main>
-    <footer>
-      <a class="logo-link link" href="index.html"
-        ><img src="./images/avatar_logo.png" alt="logo"
-      /></a>
-      <ul class="footer-list list">
-        <li class="footer-item">
-          <p class="footer-item-text">Q&A E-mail</p>
-          <a class="footer-item-link link" href="mailto:avatartwowqa@gmail.com">
-            avatartwowqa@gmail.com
-          </a>
-        </li>
-        <li class="footer-item">
-          <p class="footer-item-text">Cooperation E-mail</p>
-          <a class="footer-item-link link" href="mailto:avatartwowcoop@gmail.com">
-            avatartwowcoop@gmail.com
-          </a>
-        </li>
-      </ul>
+    <footer class="footer">
+      <div class="container">
+        <a class="logo-link link" href="index.html"
+          ><img src="./images/avatar_logo.png" alt="logo"
+        /></a>
+        <ul class="footer-list list">
+          <li class="footer-item">
+            <p class="footer-item-text">Q&A E-mail</p>
+            <a
+              class="footer-item-link link"
+              href="mailto:avatartwowqa@gmail.com">
+              avatartwowqa@gmail.com
+            </a>
+          </li>
+          <li class="footer-item">
+            <p class="footer-item-text">Cooperation E-mail</p>
+            <a
+              class="footer-item-link link"
+              href="mailto:avatartwowcoop@gmail.com">
+              avatartwowcoop@gmail.com
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
