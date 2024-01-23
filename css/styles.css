@@ -148,6 +148,21 @@ body {
   color: var(--add-color);
   font-size: 20px;
 }
+.hero-info:first-child::after {
+  content: '';
+    display: block;
+    margin-left: 53px;
+    width: 152px;
+    height: 40px;
+    background-image: url(../images/white_arrow_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.social-link:hover, .social-link:focus {
+  display: block;
+  transform: scale(1.2);
+}
 .join-btn {
   margin-top: 42px;
 }
@@ -172,6 +187,17 @@ body {
 .phrase-author {
   margin-bottom: 8px;
   font-size: 24px;
+}
+.phrase-author::after {
+  content: '';
+    margin: 8px auto 0;
+    display: block;
+    width: 400px;
+    height: 120px;
+    background-image: url(../images/bird_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 .trailer {
   background-image: url(../images/trailer_bg.jpg);
@@ -221,6 +247,25 @@ body {
 .language-phrase {
   font-size: 24px;
   line-height: 1;
+}
+.language-phrase:first-child::after {
+  content: '';
+  margin: 40px auto;
+  display: block;
+  width: 152px;
+  height: 40px;
+  background-image: url(../images/arrow_icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transform: rotate(180deg);
+}
+.language-item:nth-child(3n+2) .language-phrase:first-child::after {
+  background-image: url(../images/bird_icon.svg);
+  transform: rotate(0deg);
+}
+.language-item:nth-child(3n) .language-phrase:first-child::after {
+  transform: rotate(0deg);
 }
 .footer {
   padding-top: 35px;
