@@ -339,3 +339,43 @@ body {
   margin-left: 210px;
   font-size: 14px;
 }
+.join-box, .congrats-box {
+  width: 600px;
+  height: 404px;
+  padding: 113px 80px 25px;
+  background-image: url(../images/formjoin_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.join-label {
+  display: inline-block;
+  color: var(--bg-color);
+  font-size: 24px;
+}
+.join-label:nth-child(2) {
+  margin-top: 9px;
+}
+.join-input {
+  width: 100%;
+  border: 2px solid var(--bg-color);
+  padding: 4px;
+  margin-top: 2px;
+}
+.join-box .join-btn {
+  display: block;
+  margin: 35px auto 0;
+}
+.congrats-box {
+    padding: 50px 136px 173px;
+    background-image: url(../images/congratulation_bg.jpg);
+}
+.congrats-text {
+  text-align: center;
+  font-family: HeadlandOne;
+  font-size: 24px;
+  color: var(--add-color);
+}
+.congrats-text:first-child {
+  margin-bottom: 80px;
+}
